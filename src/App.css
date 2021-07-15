@@ -2,12 +2,16 @@
 
 body{
   font-family: "Robot Condensed" sans-serif;
+  width: 100%;
+  height: 100%;
 }
 
 :root {
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(255,255,255,0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
 }
 
 /* ********************************************** NAVBAR ****************************************************** */
@@ -17,6 +21,10 @@ body{
   height: 2.5rem;
   width: 16.25;
   margin-left: 1rem;
+}
+
+nav{
+  z-index: 2;
 }
 
 /* ********************************************** NAVLINKS ****************************************************** */
@@ -50,4 +58,90 @@ nav ul li {
 
 .navbar-nav > li > a:hover{
   border-top: 0.1875rem solid var(--primary-orange) ;
+}
+
+/* ********************************************** HEADER ****************************************************** */
+
+.header-wrapper{
+  position: relative;
+  background: url(wall-and-laptop-background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Robot Condensed" sans-serif;
+  z-index: 1;
+}
+
+.main-info h1{
+  padding-top: 9.375rem;
+  font-weight: 400;
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+@media(max-width: 768px){
+.main-info h1{
+  font-size: 1.7rem !important;
+}
+}
+
+/* ********************************************** TYPED TEXT ****************************************************** */
+
+.typed-text{
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+
+
+@media(max-width: 768px){
+.typed-text{
+  font-size: 1.5rem !important;
+}
+
+}
+
+.btn-main-offer{
+  font-family: Verdana, sans-serif;
+  font-weight: 300;
+  border: 1px solid var(--primary-red);
+  border-radius: 5%;
+  text-transform: uppercase;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+  text-decoration: none;
+}
+
+.btn-main-offer:hover{
+  text-decoration: none;
+  background-color:  var(--primary-red);
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
+}
+
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width:  100vw;
+  z-index: 1;
+}
+
+@media(max-width: 768px){
+.navbar-brand{
+  width: 7rem !important;
+}
+
 }
