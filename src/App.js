@@ -7,9 +7,10 @@ import Particles from "react-particles-js";
 import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
 import Experience from "./components/Experience";
-import Portfolio from "./components/Portfolio2";
+import Portfolio from "./components/Portfolio3";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
     <Portfolio />
     <Testimonials />
     <Contact />
+    <Footer />
     </div>
   );
 }

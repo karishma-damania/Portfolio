@@ -309,7 +309,7 @@ z-index: 1;}
 
 }
 
-.portfolio h1{
+.portfolio-h1{
   padding-bottom: 10%;
   color: var(--primary-orange);
   text-transform: uppercase;
@@ -529,4 +529,46 @@ textarea.form-control{
 textarea:focus+.line, textare:focus+.line{
   width: 100%;
   transition: width 0.5s ease-in-out;
+}
+
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+
+.card-body{
+  background: gray;
+}
+
+
+.footer{
+  background: black;
+  color: darkgray;
+  padding: 3rem;
+}
+
+.footer a{
+  text-decoration: none;
+  color: darkgrey;
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer p{
+  margin-bottom: 0;
 }
