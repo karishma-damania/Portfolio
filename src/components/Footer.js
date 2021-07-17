@@ -48,6 +48,8 @@ const Footer = () => {
 							<LinkedinShareButton />
 							<LinkedinIcon className="mx-3" size={36}/>
 						</div>
+						<p className="pt-3 text-center">Copyright&copy;{new Date().getFullYear()}&nbsp;Karishma Damania | All Rights Reserved
+					</p>
 					</div>
 				</div>
 			</div>			
