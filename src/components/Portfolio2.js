@@ -5,7 +5,8 @@ import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
 
 const Portfolio = () => {
     return (
-        <div className="portfolio">
+    	<div className="portfolio">
+        <span>
 			<h1 className="py-5">Portfolio</h1>
 				<div className="container">
 					<div className="row">
@@ -40,7 +41,8 @@ const Portfolio = () => {
 		</div>
 		</div>
 		</div>
-		</div>	
+		</span>	
+		</div>
     )
 }
 

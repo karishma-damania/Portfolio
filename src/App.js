@@ -9,6 +9,7 @@ import Services from "./components/Services";
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio2";
 import Testimonials from "./components/Testimonials";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -24,8 +25,9 @@ function App() {
     <AboutMe />
     <Services />
     <Experience />
-    {/*<Portfolio />*/}
+    <Portfolio />
     <Testimonials />
+    <Contact />
     </div>
   );
 }
